@@ -11,4 +11,11 @@ public class Cine {
     public String getNombreCine() {
         return nombre;
     }
+    public void añadirSala(Salas sala) {
+        for (int i = 0; i < salas.length; i++) {
+            if (salas[i] == null) {
+                sala = salas[i];
+            }
+        }
+    }
 }
