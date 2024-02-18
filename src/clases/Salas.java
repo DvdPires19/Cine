@@ -28,6 +28,12 @@ public class Salas {
     public void informacionSalas() {
         System.out.println("SALA " + numero + " ------ " + pelicula.getTitulo() + " ------ DURACIÓN: " + pelicula.getDuracion() + " min") ;
     }
+    /**
+     * Reserva de asientos por parte del usuario de la aplicación. Tras la entrada de datos, se comprueba si el asiento elegido está libre o está ocupado. En caso de estar libre, reemplaza la información de ese asiento con el correo, y en el caso contrario da un mensaje de error al usuario
+     * @param fila determina la fila (es decir, la posicion de i) en la matriz
+     * @param columna determina la columna (es decir, la posicion de j) en la matriz
+     * @param email sustituye al valor de [i][j] si el asiento está disponible
+     */
     public void reservarButaca(int fila, int columna, String email) {
         System.out.println("Comprobando la disponibilidad de los asientos elegidos. Por favor espere...");
         if (butacas[fila - 1][columna - 1] == "O") {
