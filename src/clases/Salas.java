@@ -22,6 +22,10 @@ public class Salas {
     public Peliculas getPelicula() {
         return pelicula;
     }
+    /**
+     * Muestra la información de una sala determinada, en la que se incluye el titulo y la duración de la película
+     */
     public void informacionSalas() {
         System.out.println("SALA " + numero + " ------ " + pelicula.getTitulo() + " ------ DURACIÓN: " + pelicula.getDuracion() + " min") ;
-    }}
+    }
+}
