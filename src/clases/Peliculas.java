@@ -6,5 +6,11 @@ public class Peliculas {
         this.titulo = titulo;
         this.duracion = duracion;
     }
+    public String getTitulo() {
+        return titulo;
+    }
 
+    public int getDuracion() {
+        return duracion;
+    }
 }
