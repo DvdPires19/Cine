@@ -28,4 +28,14 @@ public class Salas {
     public void informacionSalas() {
         System.out.println("SALA " + numero + " ------ " + pelicula.getTitulo() + " ------ DURACIÓN: " + pelicula.getDuracion() + " min") ;
     }
+    public void reservarButaca(int fila, int columna, String email) {
+        System.out.println("Comprobando la disponibilidad de los asientos elegidos. Por favor espere...");
+        if (butacas[fila - 1][columna - 1] == "O") {
+            System.out.println("Asientos disponibles!.\nReservando, espere unos segundos...");
+            butacas[fila -1][columna -1 ] = email;
+        } else {
+            System.err.println("Lo sentimos, esa butaca ya está ocupada.");
+
+        }
+    }
 }
