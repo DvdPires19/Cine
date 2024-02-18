@@ -8,4 +8,7 @@ public class Cine {
         this.nombre = nombre;
         this.salas = new Salas[numeroSalas];
     }
+    public String getNombreCine() {
+        return nombre;
+    }
 }
