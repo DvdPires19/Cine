@@ -44,6 +44,10 @@ public class Salas {
 
         }
     }
+    /**
+     * Se muestra la matriz de butacas de una sala determinada por el usuario
+     * @param nSala Recibe como parámetro el número de la sala elegida
+     */
     public void mostrarButacas(int nSala) {
         System.out.println("--------------PANTALLA---------------");
         System.out.println("");
