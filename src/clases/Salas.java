@@ -22,4 +22,6 @@ public class Salas {
     public Peliculas getPelicula() {
         return pelicula;
     }
-}
+    public void informacionSalas() {
+        System.out.println("SALA " + numero + " ------ " + pelicula.getTitulo() + " ------ DURACIÓN: " + pelicula.getDuracion() + " min") ;
+    }}
