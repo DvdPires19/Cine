@@ -8,6 +8,12 @@ public class Salas {
         this.numero = numero;
         this.pelicula = pelicula;
         this.butacas = new String[filas][columnas];
+        for (int i = 0; i < butacas.length; i++) {
+            for (int j = 0; j < butacas[i].length; j++) {
+                butacas[i][j] = "O";
+            }
+
+        }
     }
     public int getNumeroSala() {
         return numero;
