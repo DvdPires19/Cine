@@ -1,5 +1,6 @@
 # Cine
-Cine is a Java programm to describe the creation of a cinema.
+Cine is a Java programm to describe the creation of a cinema. 
+src esta compuesto por tres clases (los objetos:cine, película, sala) y por el main
 
 ## Installation commitizen
 
