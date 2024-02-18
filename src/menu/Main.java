@@ -15,5 +15,11 @@ public class Main {
         Salas sala2 = new Salas(2, new Peliculas("SPIDERMAN", 150), 10, 10);
         Salas sala3 = new Salas(3, new Peliculas("BATMAN", 95), 10, 10);
         Salas sala4 = new Salas(4, new Peliculas("SUPERMAN", 110), 10, 10);
+
+        // Se añaden las salas al array del cine
+        cine1.añadirSala(sala1);
+        cine1.añadirSala(sala2);
+        cine1.añadirSala(sala3);
+        cine1.añadirSala(sala4);
     }
 }
