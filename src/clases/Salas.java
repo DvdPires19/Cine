@@ -9,4 +9,11 @@ public class Salas {
         this.pelicula = pelicula;
         this.butacas = new String[filas][columnas];
     }
+    public int getNumeroSala() {
+        return numero;
+    }
+
+    public Peliculas getPelicula() {
+        return pelicula;
+    }
 }
