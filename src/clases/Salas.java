@@ -44,4 +44,14 @@ public class Salas {
 
         }
     }
+    public void mostrarButacas(int nSala) {
+        System.out.println("--------------PANTALLA---------------");
+        System.out.println("");
+        for (String[] fila : butacas) {
+            for (String entero : fila) {
+                System.out.printf("%-4s", entero);
+            }
+            System.out.println();
+        }
+    }
 }
